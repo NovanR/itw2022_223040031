@@ -1,0 +1,21 @@
+body {
+  background-color: aqua;
+}
+
+.font {
+  font-family: georgia;
+}
+
+.font2 {
+  font-family: comic sans ms;
+  font-size: 60px;
+  color: darkblue;
+}
+
+.font3 {
+  text-align: right;
+}
+
+p {
+  text-align: justify;
+}
