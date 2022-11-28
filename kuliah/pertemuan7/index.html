@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Modern CSS</title>
+    <style>
+      body {
+        height: 2000px;
+      }
+
+      .kotak1 {
+        width: 150px;
+        height: 75px;
+        background-color: rgba(238, 78, 4, 0.5);
+        margin: auto;
+        margin-top: -10px;
+        border-radius: 75px 75px 0 0;
+        opacity: 0.2px;
+        z-index: 10px;
+        position: relative;
+      }
+
+      p {
+        position: relative;
+      }
+
+      .kotak2 {
+        width: 200px;
+        height: 200px;
+        background-color: lightgreen;
+        margin: auto;
+        /*box-shadow: <x-offset> <y-offset> <blur> <color> [size];*/
+        box-shadow: 0px 0px 0px 10px red, 0px 0px 0px 20px blue,
+          0px 0px 0px 30px orange, 0px 0px 0px 40px green;
+        border-radius: 100px;
+      }
+
+      h1 {
+        text-align: center;
+        margin-top: 100px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 100px;
+        text-shadow: 2px 2px 0 red;
+        color: white;
+      }
+
+      .kotak3 {
+        width: 200px;
+        height: 200px;
+        background-color: lightgreen;
+        margin: auto;
+        font-size: 50px;
+        text-align: center;
+        line-height: 200px;
+        transition: 2s;
+      }
+
+      .kotak3:hover {
+        transform: rotate(720deg);
+        background-color: salmon;
+        border-radius: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="kotak1"></div>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto,
+      animi eveniet ab ea ut sint molestias, reprehenderit natus sequi alias
+      doloremque laborum veniam minima odio itaque sapiente modi. Amet aliquid
+      soluta velit ipsum et quae odit rerum corrupti itaque at! Harum dolores
+      nostrum autem ipsa voluptatibus accusamus laudantium fuga saepe?
+    </p>
+    <br /><br />
+    <div class="kotak2"></div>
+
+    <h1>Novan Ramdan</h1>
+
+    <div class="kotak3">1</div>
+  </body>
+</html>

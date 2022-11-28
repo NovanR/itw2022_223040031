@@ -1,0 +1,125 @@
+@font-face {
+  font-family: "roman";
+  src: url("fonts/roman_sd-webfont.woff2") format("woff2"),
+    url("fonts/roman_sd-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  background-color: lightgrey;
+  margin: 0;
+  height: 3500px;
+  background-image: url(img/baim.jpg);
+  background-repeat: repeat-y;
+  background-size: 50px;
+  background-position: right;
+  font-family: roman;
+}
+
+.judul h2 {
+  background-color: orange;
+  text-align: center;
+  margin: 0;
+  padding: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 0 3px gold;
+}
+
+.header {
+  background-image: url(img/baim2.jpg);
+  background-size: 130px 55px;
+  background-position: top;
+  text-shadow: 0 0 5px black;
+  margin: 0;
+  padding: 30px;
+}
+
+/* .header-list li {
+  display: inline-block;
+} */
+
+.container1 p {
+  font-size: 15px;
+}
+
+.container1 {
+  display: flex;
+  width: 1200px;
+  height: 650px;
+  margin: auto;
+  margin-top: 20px;
+  background-color: cornsilk;
+  border-radius: 20px;
+  box-shadow: 0 0 5px black;
+}
+
+.kolom-pertama {
+  flex: 1;
+}
+
+.kolom-pertama img {
+  height: 400px;
+  width: 250px;
+  margin-top: 60px;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
+.sidebar1 img {
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+  margin-top: 20px;
+  transition: 2s;
+}
+
+.sidebar1 img:hover {
+  transform: rotate(360deg);
+}
+
+.kolom-utama {
+  flex: 3;
+  padding: auto;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+  box-sizing: border-box;
+}
+
+.kolom-utama h2 {
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  text-shadow: 4px 2px 1px gold;
+}
+
+.sidebar1 {
+  flex: 1;
+  text-align: center;
+  box-shadow: 0 0 10px gold;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 20px;
+  width: 150px;
+  margin-right: 20px;
+}
+
+.sidebar1 a {
+  font-size: 20px;
+}
+
+.footer p {
+  text-align: center;
+  font-style: italic;
+  width: 1200px;
+  height: 40px;
+  margin: auto;
+  margin-top: 200px;
+  background-color: cornsilk;
+  box-shadow: 0 0 5px black;
+  font-size: 20px;
+  padding-top: 10px;
+}
